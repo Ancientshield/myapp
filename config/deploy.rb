@@ -4,6 +4,7 @@ lock "~> 3.14.1"
 set :application, "myapp"
 set :repo_url, "git@github.com:Ancientshield/myapp.git"
 
+
 # Deploy to the user's home directory
 set :deploy_to, "/home/Ancientsword/#{fetch :application}"
 
